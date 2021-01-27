@@ -1,4 +1,4 @@
-# GAN2021
+# Development of code for Ylm generation from CLAS and GAN data.
 
 This folder will include and be updated with all the codes needed for generating and comparing Ylm.
 

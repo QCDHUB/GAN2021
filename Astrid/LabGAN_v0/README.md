@@ -1,7 +1,3 @@
-# GAN2021
+# Lab-frame GAN
 
-This folder will include and be updated with all the codes needed for generating and comparing Ylm.
-
-The main notebook is Ylm\_Lab.ipynb, currently set up for the lab-frame GAN. It calls the external Python codes mceg.py and tools.py. Furthermore, it uses generator files gamma\_hist.npy, generatorfilter00224.h5, gfeaturesmean.npy, gfeaturesstd.npy, as provided by Yaohang.
-
-In order to work completely, it will need access also  to local directories with CLAS data, and where to store large npy arrays.
+The main notebook is gen\_events.ipynb, which is set up for the lab-frame GAN (it was trained on lab-frame 4-vectors). It calls the external Python codes mceg.py and tools.py. Furthermore, it uses the generator files gamma\_hist.npy, generatorfilter00224.h5, gfeaturesmean.npy and gfeaturesstd.npy.
