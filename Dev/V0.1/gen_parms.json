@@ -1,16 +1,16 @@
 {
     "generator": {
         "_comment0": "Number of events to generate.",
-        "nevents": "1000000"
+        "nevents": 1000000
     },
     "bootstrap": {
          "_comment0": "Number of bootstrap random samples",
-         "rand": "1000",
+         "rand": 1000,
          "_comment1": "Sample size of a single bootstrap generation",
-         "bootsamp": "100000"
+         "bootsamp": 100000
     },
     "histograms": {
          "_comment0": "Number of bins in the 1D histos",
-         "bins": "100"
+         "bins": 100
     }
 }
