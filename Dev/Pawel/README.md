@@ -19,3 +19,5 @@ Scripts/notebooks run well with:
 **tensorflow 2.1.0**,
 **Keras 2.3.0** 
 <br>Most recent versions of TensorFlow/Keras break gradient penatlty part in loss functions.
+
+A data file, evts-clas.npy these notebooks need to run is located in /work/JAM/pawel
