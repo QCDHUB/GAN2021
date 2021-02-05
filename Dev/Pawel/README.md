@@ -18,4 +18,4 @@ CMS 4-vectors, or a set of invariants that fully describe the reaction final sta
 Scripts/notebooks run well with:
 **tensorflow 2.1.0**,
 **Keras 2.3.0** 
-Most recent versions of TensorFlow/Keras break gradient penatlty part in loss functions.
+<br>Most recent versions of TensorFlow/Keras break gradient penatlty part in loss functions.
