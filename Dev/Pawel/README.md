@@ -3,6 +3,9 @@ Each of these codes reads in the data pertaining to the measurement in terms of 
 To reproduce faithfully the experimental data different set of training features are chosen: the lab 4-vectors,
 CMS 4-vectors, or a set of invariants that fully describe the reaction final state. Below are some of those variants.
 
+**Lab GAN:**
+- 
+
 **Invariant GANs:**
 - clas_conditional_GAN_invariant3.ipynb - 5 layer, original
 - clas_conditional_GAN_invariant4.ipynb - 5 layer GAN (discriminatorfilter00101.h5, generatorfilter00101.h5)
