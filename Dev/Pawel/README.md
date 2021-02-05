@@ -8,4 +8,5 @@ Invariant GANs:
 - clas_conditional_GAN_invariant5.py - 8 layer GAN
 
 CMS GAN:
+- clas_conditional_GAN_cm2_orig.ipynb - 8 layer GAN
 - clas_conditional_GAN_cm2.ipynb - 20 layer GAN
