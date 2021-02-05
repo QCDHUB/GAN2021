@@ -1,4 +1,7 @@
-This directory contains Pawel's GAN(s):
+This directory contains GAN(s) developed to tackle CLAS data for two pion photoproduction off a proton.
+Each of these codes reads in the data pertaining to the measurement in terms of lab defined 4-vectors.
+To reproduce faithfully the experimental data different set of training features are chosen: the lab 4-vectors,
+CMS 4-vectors, or a set of invariants that fully describe the reaction final state.
 
 Invariant GANs:
 - clas_conditional_GAN_invariant4.py - 5 layer GAN (discriminatorfilter00101.h5, generatorfilter00101.h5)
