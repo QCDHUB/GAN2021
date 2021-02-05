@@ -4,6 +4,7 @@ To reproduce faithfully the experimental data different set of training features
 CMS 4-vectors, or a set of invariants that fully describe the reaction final state. Below are some of those variants.
 
 **Invariant GANs:**
+- clas_conditional_GAN_invariant3.py - 5 layer, original
 - clas_conditional_GAN_invariant4.py - 5 layer GAN (discriminatorfilter00101.h5, generatorfilter00101.h5)
 - clas_conditional_GAN_invariant5.py - 8 layer GAN
 
