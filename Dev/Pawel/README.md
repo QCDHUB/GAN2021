@@ -15,7 +15,7 @@ CMS 4-vectors, or a set of invariants that fully describe the reaction final sta
 - clas_conditional_GAN_cm2_orig.ipynb - 8 layer GAN
 - clas_conditional_GAN_cm2.ipynb - 20 layer GAN 
 
-Scripts/notebooks run well with:
+Notebooks run well with:
 **tensorflow 2.1.0**,
 **Keras 2.3.0** 
 <br>Most recent versions of TensorFlow/Keras break gradient penatlty part in loss functions.
