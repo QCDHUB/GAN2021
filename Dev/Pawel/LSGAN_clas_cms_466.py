@@ -365,16 +365,12 @@ class LSGAN():
                 event_batch = discriminator_minibatches[:batch_size]
                 g_loss = self.combined.train_on_batch( [gamma, noise], valid )
 
-            # If at save interval => save generated image samples
+            # If at save interval => print out stuff
             dloss=np.append(dloss,d_loss[0])
             gloss=np.append(gloss,g_loss)
             if epoch % sample_interval == 0:
                 print ("%d [D loss: %f, acc.: %.2f%%] [G loss: %f]" % (epoch, d_loss[0], 100*d_loss[1], g_loss))
                 self.diagnostic_plots( ax, dloss, gloss )
-#                 self.sample_images(epoch, dloss, gloss)
-#                 self.generator.save_weights('ls_generator_all_features_200'+str(epoch)+'.h5')
-#                 self.discriminator.save_weights('ls_discriminator_all_features_200'+str(epoch)+'.h5')
-
         return 
 
 
