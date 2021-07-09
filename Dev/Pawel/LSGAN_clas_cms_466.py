@@ -28,7 +28,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3"
 # In[2]:
 
 
-datapath = '../../devel/'
+datapath = './'
 events0 = np.load( datapath + 'evts-clas.npy' )
 
 
