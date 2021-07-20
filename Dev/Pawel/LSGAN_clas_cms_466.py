@@ -375,7 +375,7 @@ if __name__ == '__main__':
     gan.generator.load_weights('generatorfilter00466.h5')
     gan.discriminator.load_weights('discriminatorfilter00466.h5')
 
-    # gan.train(clas,  epochs=10, batch_size=40000, sample_interval=2)
+    gan.train(clas,  epochs=10, batch_size=40000, sample_interval=2)
 
     SAMPLE_SIZE = 6000000
     gamma, noise, results = detector_filter(SAMPLE_SIZE)            
